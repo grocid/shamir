@@ -1,4 +1,4 @@
-# Shamir secret sharing
+# Shamir's secret-sharing scheme
 This is a simple implementation of Shamir's secret-sharing scheme over GF(2⁸). The secret is split into several shares, rather than transforming the whole secret into larger moduli. This leads to small look-up tables and (basically) constant-time computation.
 
 ## Complexity
