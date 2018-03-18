@@ -8,3 +8,7 @@ The complexity of computing shares is O(n²L) where n is the number of shares an
 ## Security
 
 Shamir's secret-sharing scheme offers information-theoretical security. Given m - 1 shares and guessing the last share gives 2⁸ (equally likely) possibilities for the secret (which is a bijective mapping). Hence, the m - 1 reveal nothing about the secret. Since the L different shares are independent, no information about the secret as a whole is revealed.
+
+## License
+
+BSD License, see source code.
